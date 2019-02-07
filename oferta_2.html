@@ -1,0 +1,729 @@
+<!DOCTYPE html>
+<html lang="pl">
+	<head>
+		<link href="https://fonts.googleapis.com/css?family=Merienda" rel="stylesheet">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"> 
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<meta charset="UTF-8">	
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+ 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+ 		<script src="oferta.js" async></script>
+		<title> BabyShoes </title>
+	</head>
+	<body>
+<!--NAV-LOGO-ANIMATION-->
+		<section class="website">
+			<section>
+				<div class="row">
+					<h1 class="col-xs-12 col-sm-9 col-md-9 navbar-brand logo_nav gray_effect"> 
+					    <span> B </span>
+					    <span> a </span>
+					    <span> b </span> 
+					    <span> y </span>
+					    <span> S </span> 
+					    <span> h </span>
+					    <span> o </span>
+					    <span> e </span>
+					    <span> s </span>
+					</h1>
+					<div class="col-xs-12 col-sm-3 col-md-3 social_media">
+						<a href="#" target="_blank"><i class="fa fa-facebook"></i></a>
+						<a href="#" target="_blank"><i class="fa fa-instagram"></i></a>
+					</div>
+				</div>
+			</section>
+<!--NAVIGATION-->
+			<nav class="navbar navbar-default">
+				<div class="container-fluid">
+					<div class="navbar-header">
+			      		<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+			        		<span class="icon-bar"></span>
+			        		<span class="icon-bar"></span>
+			        		<span class="icon-bar"></span>      
+			        		<span class="icon-bar"></span>                   
+			      		</button>
+		    		</div>
+		    		<div class="collapse navbar-collapse" id="myNavbar">
+				    	<ul class="nav navbar-nav">
+				      		<li class="active"><a href="index.html">Strona główna</a></li>
+				        	<li><a href="o_nas.html">O Nas</a></li>
+				        	<li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#"> Oferta <span class="caret"></span></a>
+				        		<ul class="dropdown-menu">
+				          			<li><a href="oferta_1.html"> Dziecięce Trampki </a></li>
+				          			<li><a href="oferta_2.html"> Dziecięce Bambosze </a></li>
+				        		</ul>
+		      				</li>
+							<li><a href="zadowoleni_klienci.html">Zadowoleni klienci</a></li>
+							<li><a href="kontakt.html">Kontakt</a></li>
+				    	</ul>
+				    </div>
+			  	</div>
+			</nav>
+<!--OFFER-->
+			<section class="offer_1">
+				<div class="row">
+				  	<div class="col-xs-12 col-sm-12 col-md-12">
+				    	<div id="mdb-lightbox-ui"></div>
+				    	<div class="row mdb-lightbox no-margin">
+				      		<figure class="col-xs-12 col-sm-6 col-md-3 thumbnail">
+				        		<a class="black-text" href="oferta_2/baby_1.jpg"
+				          		data-size="1200x800">
+				          			<img alt="picture" src="oferta_2/baby_1.jpg">
+				          			<h3 class="text-center my-3"> Baby Shoes 11 - 30PLN </h3>
+				        		</a>
+				        		<div class="container_1">
+								  	<!-- Trigger the modal with a button -->
+								  	<button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal1"> Zamów  <i class="fa fa-shopping-cart"></i></button>
+								  	<!-- Modal -->
+								  	<div class="modal fade" id="myModal1" role="dialog">
+								    	<div class="modal-dialog">
+								      	<!-- Modal content-->
+								      		<div class="modal-content">
+								        		<div class="modal-header">
+								          		<button type="button" class="close" data-dismiss="modal">&times;</button>
+								          		<h4 class="modal-title">Złóż zamówienie na produkt Baby Shoes 11 - 30PLN</h4>
+								        	</div>
+								        	<div class="modal-body">
+								          		<!--FORM-->
+					        					<form class="form_look">
+										    		<div class="form-group">
+										      			<label for="inputdefault"> Imię </label>
+										      			<input class="form-control" id="inputdefault" type="text">
+										    		</div>
+										    		<div class="form-group">
+										      			<label for="inputlg"> Nazwisko </label>
+										      			<input class="form-control input-lg" id="inputlg" type="text">
+										    		</div>
+										    		<div class="form-group">
+										      			<label for="inputsm"> Numer telefonu </label>
+										      			<input class="form-control input-sm" id="inputsm" type="text">
+										    		</div>
+										    		<div class="form-group">
+										      			<label for="inputsm"> E-mail </label>
+										      			<input class="form-control input-sm" id="inputsm" type="text">
+										    		</div>
+										    		<div class="form-group">
+										      			<label for="inputsm"> Adres do przesyłki </label>
+										      			<input class="form-control input-sm" id="inputsm" type="text">
+										    		</div>
+										    		<div class="form-group">
+										      			<label for="sel1"> Ilość sztuk </label>
+										      			<select class="form-control" id="sel1">
+													        <option>1</option>
+													        <option>2</option>
+													        <option>3</option>
+													        <option>4</option>
+													        <option>5</option>
+													        <option>6</option>
+													        <option>7</option>
+													        <option>8</option>
+													        <option>9</option>
+													        <option>10</option>
+										      			</select>
+										    		</div>
+										    		<div class="form-group">
+										      			<label for="sel1"> Rozmiar </label>
+										      			<select class="form-control" id="sel1">
+													        <option>16</option>
+													        <option>17</option>
+													        <option>18</option>
+													        <option>19</option>
+													        <option>20</option>
+													        <option>21</option>
+													        <option>22</option>
+													        <option>23</option>
+													        <option>24</option>
+										      			</select>
+										    		</div>
+									  			</form>
+								        	</div>
+								        	<div class="modal-footer">
+								        		<input type="button" onclick="alert('Twoje zamówienie zostało złożone. Potwierdzenie Twojego zamówienia zostało przesłane na podany E-mail.')" value="Wyślij zamówienie">
+								          		<!--<button type="button" class="btn btn-default" data-dismiss="modal"> Wyślij zamówienie </button>-->
+								        	</div>
+								      	</div>
+								    </div> 
+								</div>
+				      		</figure>
+				      		<figure class="col-xs-12 col-sm-6 col-md-3 thumbnail">
+				        		<a class="black-text" href="oferta_2/baby_2.jpg"
+				          		data-size="1200x800">
+				          			<img alt="picture" src="oferta_2/baby_2.jpg">
+				          			<h3 class="text-center my-3"> Baby Shoes 12 - 30PLN</h3>
+				        		</a>
+				        		<div class="container_1">
+								  	<!-- Trigger the modal with a button -->
+								  	<button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal2"> Zamów  <i class="fa fa-shopping-cart"></i></button>
+								  	<!-- Modal -->
+								  	<div class="modal fade" id="myModal2" role="dialog">
+								    	<div class="modal-dialog">
+								      	<!-- Modal content-->
+								      		<div class="modal-content">
+								        		<div class="modal-header">
+								          		<button type="button" class="close" data-dismiss="modal">&times;</button>
+								          		<h4 class="modal-title">Złóż zamówienie na produkt Baby Shoes 12 - 30PLN</h4>
+								        	</div>
+								        	<div class="modal-body">
+								          		<!--FORM-->
+					        					<form class="form_look">
+										    		<div class="form-group">
+										      			<label for="inputdefault"> Imię </label>
+										      			<input class="form-control" id="inputdefault" type="text">
+										    		</div>
+										    		<div class="form-group">
+										      			<label for="inputlg"> Nazwisko </label>
+										      			<input class="form-control input-lg" id="inputlg" type="text">
+										    		</div>
+										    		<div class="form-group">
+										      			<label for="inputsm"> Numer telefonu </label>
+										      			<input class="form-control input-sm" id="inputsm" type="text">
+										    		</div>
+										    		<div class="form-group">
+										      			<label for="inputsm"> E-mail </label>
+										      			<input class="form-control input-sm" id="inputsm" type="text">
+										    		</div>
+										    		<div class="form-group">
+										      			<label for="inputsm"> Adres do przesyłki </label>
+										      			<input class="form-control input-sm" id="inputsm" type="text">
+										    		</div>
+										    		<div class="form-group">
+										      			<label for="sel1"> Ilość sztuk </label>
+										      			<select class="form-control" id="sel1">
+													        <option>1</option>
+													        <option>2</option>
+													        <option>3</option>
+													        <option>4</option>
+													        <option>5</option>
+													        <option>6</option>
+													        <option>7</option>
+													        <option>8</option>
+													        <option>9</option>
+													        <option>10</option>
+										      			</select>
+										    		</div>
+										    		<div class="form-group">
+										      			<label for="sel1"> Rozmiar </label>
+										      			<select class="form-control" id="sel1">
+													        <option>16</option>
+													        <option>17</option>
+													        <option>18</option>
+													        <option>19</option>
+													        <option>20</option>
+													        <option>21</option>
+													        <option>22</option>
+													        <option>23</option>
+													        <option>24</option>
+										      			</select>
+										    		</div>
+									  			</form>
+								        	</div>
+								        	<div class="modal-footer">
+								        		<input type="button" onclick="alert('Twoje zamówienie zostało złożone. Potwierdzenie Twojego zamówienia zostało przesłane na podany E-mail.')" value="Wyślij zamówienie">
+								          		<!--<button type="button" class="btn btn-default" data-dismiss="modal"> Wyślij zamówienie </button>-->
+								        	</div>
+								      	</div>
+								    </div>
+								</div>
+				      		</figure>
+				      		<figure class="col-xs-12 col-sm-6 col-md-3 thumbnail">
+					        	<a class="black-text" href="oferta_2/baby_3.jpg"
+					          	data-size="1200x800">
+					          		<img alt="picture" src="oferta_2/baby_3.jpg">
+					          		<h3 class="text-center my-3"> Baby Shoes 13 - 30PLN</h3>
+					        	</a>
+					        	<div class="container_1">
+								  	<!-- Trigger the modal with a button -->
+								  	<button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal3"> Zamów  <i class="fa fa-shopping-cart"></i></button>
+								  	<!-- Modal -->
+								  	<div class="modal fade" id="myModal3" role="dialog">
+								    	<div class="modal-dialog">
+								      	<!-- Modal content-->
+								      		<div class="modal-content">
+								        		<div class="modal-header">
+								          		<button type="button" class="close" data-dismiss="modal">&times;</button>
+								          		<h4 class="modal-title">Złóż zamówienie na produkt Baby Shoes 13 - 30PLN</h4>
+								        	</div>
+								        	<div class="modal-body">
+								          		<!--FORM-->
+					        					<form class="form_look">
+										    		<div class="form-group">
+										      			<label for="inputdefault"> Imię </label>
+										      			<input class="form-control" id="inputdefault" type="text">
+										    		</div>
+										    		<div class="form-group">
+										      			<label for="inputlg"> Nazwisko </label>
+										      			<input class="form-control input-lg" id="inputlg" type="text">
+										    		</div>
+										    		<div class="form-group">
+										      			<label for="inputsm"> Numer telefonu </label>
+										      			<input class="form-control input-sm" id="inputsm" type="text">
+										    		</div>
+										    		<div class="form-group">
+										      			<label for="inputsm"> E-mail </label>
+										      			<input class="form-control input-sm" id="inputsm" type="text">
+										    		</div>
+										    		<div class="form-group">
+										      			<label for="inputsm"> Adres do przesyłki </label>
+										      			<input class="form-control input-sm" id="inputsm" type="text">
+										    		</div>
+										    		<div class="form-group">
+										      			<label for="sel1"> Ilość sztuk </label>
+										      			<select class="form-control" id="sel1">
+													        <option>1</option>
+													        <option>2</option>
+													        <option>3</option>
+													        <option>4</option>
+													        <option>5</option>
+													        <option>6</option>
+													        <option>7</option>
+													        <option>8</option>
+													        <option>9</option>
+													        <option>10</option>
+										      			</select>
+										    		</div>
+										    		<div class="form-group">
+										      			<label for="sel1"> Rozmiar </label>
+										      			<select class="form-control" id="sel1">
+													        <option>16</option>
+													        <option>17</option>
+													        <option>18</option>
+													        <option>19</option>
+													        <option>20</option>
+													        <option>21</option>
+													        <option>22</option>
+													        <option>23</option>
+													        <option>24</option>
+										      			</select>
+										    		</div>
+									  			</form>
+								        	</div>
+								        	<div class="modal-footer">
+								        		<input type="button" onclick="alert('Twoje zamówienie zostało złożone. Potwierdzenie Twojego zamówienia zostało przesłane na podany E-mail.')" value="Wyślij zamówienie">
+								          		<!--<button type="button" class="btn btn-default" data-dismiss="modal"> Wyślij zamówienie </button>-->
+								        	</div>
+								      	</div>
+								    </div>
+								</div>
+				      		</figure>
+				      		<figure class="col-xs-12 col-sm-6 col-md-3 thumbnail">
+				        		<a class="black-text" href="oferta_2/baby_4.jpg"
+				          		data-size="1200x800">
+				          			<img alt="picture" src="oferta_2/baby_4.jpg">
+				          			<h3 class="text-center my-3"> Baby Shoes 14 - 30PLN</h3>
+				        		</a>
+				        		<div class="container_1">
+								  	<!-- Trigger the modal with a button -->
+								  	<button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal4"> Zamów  <i class="fa fa-shopping-cart"></i></button>
+								  	<!-- Modal -->
+								  	<div class="modal fade" id="myModal4" role="dialog">
+								    	<div class="modal-dialog">
+								      	<!-- Modal content-->
+								      		<div class="modal-content">
+								        		<div class="modal-header">
+								          		<button type="button" class="close" data-dismiss="modal">&times;</button>
+								          		<h4 class="modal-title">Złóż zamówienie na produkt Baby Shoes 14 - 30PLN</h4>
+								        	</div>
+								        	<div class="modal-body">
+								          		<!--FORM-->
+					        					<form class="form_look">
+										    		<div class="form-group">
+										      			<label for="inputdefault"> Imię </label>
+										      			<input class="form-control" id="inputdefault" type="text">
+										    		</div>
+										    		<div class="form-group">
+										      			<label for="inputlg"> Nazwisko </label>
+										      			<input class="form-control input-lg" id="inputlg" type="text">
+										    		</div>
+										    		<div class="form-group">
+										      			<label for="inputsm"> Numer telefonu </label>
+										      			<input class="form-control input-sm" id="inputsm" type="text">
+										    		</div>
+										    		<div class="form-group">
+										      			<label for="inputsm"> E-mail </label>
+										      			<input class="form-control input-sm" id="inputsm" type="text">
+										    		</div>
+										    		<div class="form-group">
+										      			<label for="inputsm"> Adres do przesyłki </label>
+										      			<input class="form-control input-sm" id="inputsm" type="text">
+										    		</div>
+										    		<div class="form-group">
+										      			<label for="sel1"> Ilość sztuk </label>
+										      			<select class="form-control" id="sel1">
+													        <option>1</option>
+													        <option>2</option>
+													        <option>3</option>
+													        <option>4</option>
+													        <option>5</option>
+													        <option>6</option>
+													        <option>7</option>
+													        <option>8</option>
+													        <option>9</option>
+													        <option>10</option>
+										      			</select>
+										    		</div>
+										    		<div class="form-group">
+										      			<label for="sel1"> Rozmiar </label>
+										      			<select class="form-control" id="sel1">
+													        <option>16</option>
+													        <option>17</option>
+													        <option>18</option>
+													        <option>19</option>
+													        <option>20</option>
+													        <option>21</option>
+													        <option>22</option>
+													        <option>23</option>
+													        <option>24</option>
+										      			</select>
+										    		</div>
+									  			</form>
+								        	</div>
+								        	<div class="modal-footer">
+								        		<input type="button" onclick="alert('Twoje zamówienie zostało złożone. Potwierdzenie Twojego zamówienia zostało przesłane na podany E-mail.')" value="Wyślij zamówienie">
+								          		<!--<button type="button" class="btn btn-default" data-dismiss="modal"> Wyślij zamówienie </button>-->
+								        	</div>
+								      	</div>
+								    </div>
+								</div>
+				      		</figure>
+				      	</div>
+				      	<div class="row">
+						    <figure class="col-xs-12 col-sm-6 col-md-3 thumbnail">
+				        		<a class="black-text" href="oferta_2/baby_5.jpg"
+				          		data-size="1200x800">
+				          			<img alt="picture" src="oferta_2/baby_5.jpg">
+				          			<h3 class="text-center my-3"> Baby Shoes 15 - 35PLN</h3>
+				        		</a>
+				        		<div class="container_1">
+								  	<!-- Trigger the modal with a button -->
+								  	<button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal5"> Zamów  <i class="fa fa-shopping-cart"></i></button>
+								  	<!-- Modal -->
+								  	<div class="modal fade" id="myModal5" role="dialog">
+								    	<div class="modal-dialog">
+								      	<!-- Modal content-->
+								      		<div class="modal-content">
+								        		<div class="modal-header">
+								          		<button type="button" class="close" data-dismiss="modal">&times;</button>
+								          		<h4 class="modal-title">Złóż zamówienie na produkt Baby Shoes 15 - 35PLN</h4>
+								        	</div>
+								        	<div class="modal-body">
+								          		<!--FORM-->
+					        					<form class="form_look">
+										    		<div class="form-group">
+										      			<label for="inputdefault"> Imię </label>
+										      			<input class="form-control" id="inputdefault" type="text">
+										    		</div>
+										    		<div class="form-group">
+										      			<label for="inputlg"> Nazwisko </label>
+										      			<input class="form-control input-lg" id="inputlg" type="text">
+										    		</div>
+										    		<div class="form-group">
+										      			<label for="inputsm"> Numer telefonu </label>
+										      			<input class="form-control input-sm" id="inputsm" type="text">
+										    		</div>
+										    		<div class="form-group">
+										      			<label for="inputsm"> E-mail </label>
+										      			<input class="form-control input-sm" id="inputsm" type="text">
+										    		</div>
+										    		<div class="form-group">
+										      			<label for="inputsm"> Adres do przesyłki </label>
+										      			<input class="form-control input-sm" id="inputsm" type="text">
+										    		</div>
+										    		<div class="form-group">
+										      			<label for="sel1"> Ilość sztuk </label>
+										      			<select class="form-control" id="sel1">
+													        <option>1</option>
+													        <option>2</option>
+													        <option>3</option>
+													        <option>4</option>
+													        <option>5</option>
+													        <option>6</option>
+													        <option>7</option>
+													        <option>8</option>
+													        <option>9</option>
+													        <option>10</option>
+										      			</select>
+										    		</div>
+										    		<div class="form-group">
+										      			<label for="sel1"> Rozmiar </label>
+										      			<select class="form-control" id="sel1">
+													        <option>16</option>
+													        <option>17</option>
+													        <option>18</option>
+													        <option>19</option>
+													        <option>20</option>
+													        <option>21</option>
+													        <option>22</option>
+													        <option>23</option>
+													        <option>24</option>
+										      			</select>
+										    		</div>
+									  			</form>
+								        	</div>
+								        	<div class="modal-footer">
+								        		<input type="button" onclick="alert('Twoje zamówienie zostało złożone. Potwierdzenie Twojego zamówienia zostało przesłane na podany E-mail.')" value="Wyślij zamówienie">
+								          		<!--<button type="button" class="btn btn-default" data-dismiss="modal"> Wyślij zamówienie </button>-->
+								        	</div>
+								      	</div>
+								    </div>
+								</div>
+				      		</figure>
+				      		<figure class="col-xs-12 col-sm-6 col-md-3 thumbnail">
+				        		<a class="black-text" href="oferta_2/baby_6.jpg"
+				          		data-size="1200x800">
+				          			<img alt="picture" src="oferta_2/baby_6.jpg">
+				          			<h3 class="text-center my-3"> Baby Shoes 16 - 35PLN</h3>
+				        		</a>
+				        		<div class="container_1">
+								  	<!-- Trigger the modal with a button -->
+								  	<button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal6"> Zamów  <i class="fa fa-shopping-cart"></i></button>
+								  	<!-- Modal -->
+								  	<div class="modal fade" id="myModal6" role="dialog">
+								    	<div class="modal-dialog">
+								      	<!-- Modal content-->
+								      		<div class="modal-content">
+								        		<div class="modal-header">
+								          		<button type="button" class="close" data-dismiss="modal">&times;</button>
+								          		<h4 class="modal-title">Złóż zamówienie na produkt Baby Shoes 16 - 35PLN</h4>
+								        	</div>
+								        	<div class="modal-body">
+								          		<!--FORM-->
+					        					<form class="form_look">
+										    		<div class="form-group">
+										      			<label for="inputdefault"> Imię </label>
+										      			<input class="form-control" id="inputdefault" type="text">
+										    		</div>
+										    		<div class="form-group">
+										      			<label for="inputlg"> Nazwisko </label>
+										      			<input class="form-control input-lg" id="inputlg" type="text">
+										    		</div>
+										    		<div class="form-group">
+										      			<label for="inputsm"> Numer telefonu </label>
+										      			<input class="form-control input-sm" id="inputsm" type="text">
+										    		</div>
+										    		<div class="form-group">
+										      			<label for="inputsm"> E-mail </label>
+										      			<input class="form-control input-sm" id="inputsm" type="text">
+										    		</div>
+										    		<div class="form-group">
+										      			<label for="inputsm"> Adres do przesyłki </label>
+										      			<input class="form-control input-sm" id="inputsm" type="text">
+										    		</div>
+										    		<div class="form-group">
+										      			<label for="sel1"> Ilość sztuk </label>
+										      			<select class="form-control" id="sel1">
+													        <option>1</option>
+													        <option>2</option>
+													        <option>3</option>
+													        <option>4</option>
+													        <option>5</option>
+													        <option>6</option>
+													        <option>7</option>
+													        <option>8</option>
+													        <option>9</option>
+													        <option>10</option>
+										      			</select>
+										    		</div>
+										    		<div class="form-group">
+										      			<label for="sel1"> Rozmiar </label>
+										      			<select class="form-control" id="sel1">
+													        <option>16</option>
+													        <option>17</option>
+													        <option>18</option>
+													        <option>19</option>
+													        <option>20</option>
+													        <option>21</option>
+													        <option>22</option>
+													        <option>23</option>
+													        <option>24</option>
+										      			</select>
+										    		</div>
+									  			</form>
+								        	</div>
+								        	<div class="modal-footer">
+								        		<input type="button" onclick="alert('Twoje zamówienie zostało złożone. Potwierdzenie Twojego zamówienia zostało przesłane na podany E-mail.')" value="Wyślij zamówienie">
+								          		<!--<button type="button" class="btn btn-default" data-dismiss="modal"> Wyślij zamówienie </button>-->
+								        	</div>
+								      	</div>
+								    </div>
+								</div>
+				      		</figure>
+				      		<figure class="col-xs-12 col-sm-6 col-md-3 thumbnail">
+					        	<a class="black-text" href="oferta_2/baby_7.jpg"
+					          	data-size="1200x800">
+					          		<img alt="picture" src="oferta_2/baby_7.jpg">
+					          		<h3 class="text-center my-3"> Baby Shoes 17 - 35PLN</h3>
+					        	</a>
+					        	<div class="container_1">
+								  	<!-- Trigger the modal with a button -->
+								  	<button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal7"> Zamów  <i class="fa fa-shopping-cart"></i></button>
+								  	<!-- Modal -->
+								  	<div class="modal fade" id="myModal7" role="dialog">
+								    	<div class="modal-dialog">
+								      	<!-- Modal content-->
+								      		<div class="modal-content">
+								        		<div class="modal-header">
+								          		<button type="button" class="close" data-dismiss="modal">&times;</button>
+								          		<h4 class="modal-title">Złóż zamówienie na produkt Baby Shoes 17 - 35PLN</h4>
+								        	</div>
+								        	<div class="modal-body">
+								          		<!--FORM-->
+					        					<form class="form_look">
+										    		<div class="form-group">
+										      			<label for="inputdefault"> Imię </label>
+										      			<input class="form-control" id="inputdefault" type="text">
+										    		</div>
+										    		<div class="form-group">
+										      			<label for="inputlg"> Nazwisko </label>
+										      			<input class="form-control input-lg" id="inputlg" type="text">
+										    		</div>
+										    		<div class="form-group">
+										      			<label for="inputsm"> Numer telefonu </label>
+										      			<input class="form-control input-sm" id="inputsm" type="text">
+										    		</div>
+										    		<div class="form-group">
+										      			<label for="inputsm"> E-mail </label>
+										      			<input class="form-control input-sm" id="inputsm" type="text">
+										    		</div>
+										    		<div class="form-group">
+										      			<label for="inputsm"> Adres do przesyłki </label>
+										      			<input class="form-control input-sm" id="inputsm" type="text">
+										    		</div>
+										    		<div class="form-group">
+										      			<label for="sel1"> Ilość sztuk </label>
+										      			<select class="form-control" id="sel1">
+													        <option>1</option>
+													        <option>2</option>
+													        <option>3</option>
+													        <option>4</option>
+													        <option>5</option>
+													        <option>6</option>
+													        <option>7</option>
+													        <option>8</option>
+													        <option>9</option>
+													        <option>10</option>
+										      			</select>
+										    		</div>
+										    		<div class="form-group">
+										      			<label for="sel1"> Rozmiar </label>
+										      			<select class="form-control" id="sel1">
+													        <option>16</option>
+													        <option>17</option>
+													        <option>18</option>
+													        <option>19</option>
+													        <option>20</option>
+													        <option>21</option>
+													        <option>22</option>
+													        <option>23</option>
+													        <option>24</option>
+										      			</select>
+										    		</div>
+									  			</form>
+								        	</div>
+								        	<div class="modal-footer">
+								        		<input type="button" onclick="alert('Twoje zamówienie zostało złożone. Potwierdzenie Twojego zamówienia zostało przesłane na podany E-mail.')" value="Wyślij zamówienie">
+								          		<!--<button type="button" class="btn btn-default" data-dismiss="modal"> Wyślij zamówienie </button>-->
+								        	</div>
+								      	</div>
+								    </div>
+								</div>
+				      		</figure>
+				      		<figure class="col-xs-12 col-sm-6 col-md-3 thumbnail">
+				        		<a class="black-text" href="oferta_2/baby_8.jpg"
+				          		data-size="1200x800">
+				          			<img alt="picture" src="oferta_2/baby_8.jpg">
+				          			<h3 class="text-center my-3">Baby Shoes 18 - 35PLN</h3>
+				        		</a>
+				        		<div class="container_1">
+								  	<!-- Trigger the modal with a button -->
+								  	<button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal8"> Zamów  <i class="fa fa-shopping-cart"></i></button>
+								  	<!-- Modal -->
+								  	<div class="modal fade" id="myModal8" role="dialog">
+								    	<div class="modal-dialog">
+								      	<!-- Modal content-->
+								      		<div class="modal-content">
+								        		<div class="modal-header">
+								          		<button type="button" class="close" data-dismiss="modal">&times;</button>
+								          		<h4 class="modal-title">Złóż zamówienie na produkt Baby Shoes 18 - 35PLN</h4>
+								        	</div>
+								        	<div class="modal-body">
+								          		<!--FORM-->
+					        					<form class="form_look">
+										    		<div class="form-group">
+										      			<label for="inputdefault"> Imię </label>
+										      			<input class="form-control" id="inputdefault" type="text">
+										    		</div>
+										    		<div class="form-group">
+										      			<label for="inputlg"> Nazwisko </label>
+										      			<input class="form-control input-lg" id="inputlg" type="text">
+										    		</div>
+										    		<div class="form-group">
+										      			<label for="inputsm"> Numer telefonu </label>
+										      			<input class="form-control input-sm" id="inputsm" type="text">
+										    		</div>
+										    		<div class="form-group">
+										      			<label for="inputsm"> E-mail </label>
+										      			<input class="form-control input-sm" id="inputsm" type="text">
+										    		</div>
+										    		<div class="form-group">
+										      			<label for="inputsm"> Adres do przesyłki </label>
+										      			<input class="form-control input-sm" id="inputsm" type="text">
+										    		</div>
+										    		<div class="form-group">
+										      			<label for="sel1"> Ilość sztuk </label>
+										      			<select class="form-control" id="sel1">
+													        <option>1</option>
+													        <option>2</option>
+													        <option>3</option>
+													        <option>4</option>
+													        <option>5</option>
+													        <option>6</option>
+													        <option>7</option>
+													        <option>8</option>
+													        <option>9</option>
+													        <option>10</option>
+										      			</select>
+										    		</div>
+										    		<div class="form-group">
+										      			<label for="sel1"> Rozmiar </label>
+										      			<select class="form-control" id="sel1">
+													        <option>16</option>
+													        <option>17</option>
+													        <option>18</option>
+													        <option>19</option>
+													        <option>20</option>
+													        <option>21</option>
+													        <option>22</option>
+													        <option>23</option>
+													        <option>24</option>
+										      			</select>
+										    		</div>
+									  			</form>
+								        	</div>
+								        	<div class="modal-footer">
+								        		<input type="button" onclick="alert('Twoje zamówienie zostało złożone. Potwierdzenie Twojego zamówienia zostało przesłane na podany E-mail.')" value="Wyślij zamówienie">
+								          		<!--<button type="button" class="btn btn-default" data-dismiss="modal"> Wyślij zamówienie </button>-->
+								        	</div>
+								      	</div>
+								    </div>
+								</div>
+				      		</figure>
+				    	</div>
+				  	</div>
+				</div>
+	  		</section>
+<!--FOOTER-->
+			<footer>
+				<div class="row">
+					<div class="col-xs-12 col-sm-2 col-md-2">
+						<p><a href="#"> Regulamin </a></p>
+					</div> 
+					<div class="col-xs-12 col-sm-10 col-md-10">
+						<p> Created by Weronika Skoczeń &copy; 2019 <a class="sign" href="http://www.werkris.pl"> www.werkris.pl </a> </p>
+					</div>
+				</div>
+			</footer>
+		</section>
+	</body>
+</html>
